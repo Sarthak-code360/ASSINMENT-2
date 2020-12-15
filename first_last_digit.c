@@ -2,21 +2,21 @@
 #include<math.h>
 int main(int argc, char const *argv[])
 {
-    int n, firstDigit, lastDigit, digits;
+    int n, FirstDigit, LastDigit, digits;
 
     printf("Enter any number: ");
 
     scanf("%d", &n);
 
-    lastDigit = n % 10;     
+    LastDigit = n % 10;     
 
     digits = (int)log10(n); 
 
-    firstDigit = (int)(n / pow(10, digits)); 
+    FirstDigit = (int)(n) / pow(10, digits); 
 
-    printf("First digit = %d\n", firstDigit);
+    printf("First digit = %d\n", FirstDigit);
     
-    printf("Last digit = %d\n", lastDigit);
+    printf("Last digit = %d\n", LastDigit);
 
     return 0;
 }
