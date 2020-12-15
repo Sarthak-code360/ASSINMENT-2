@@ -44,8 +44,7 @@ int main()
                 printf("Nine ");
                 break;
         }
-        
-        num = num / 10;
+            num = num / 10;
     }
     
     return 0;

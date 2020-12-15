@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
         sum += i;
     }
     printf("Sum of all odd numbers till n : %d", sum);
+    
     return 0;
 }
 

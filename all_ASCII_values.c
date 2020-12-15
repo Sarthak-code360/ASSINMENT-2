@@ -9,6 +9,5 @@ int main()
     {
         printf("ASCII value of character %c = %d\n", i, i);
     }
-
     return 0;
 }

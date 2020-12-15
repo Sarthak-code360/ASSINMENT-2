@@ -7,6 +7,5 @@ int main(int argc, char const *argv[])
     {
         printf("%c\t", ch);
     }
-
     return 0;
 }

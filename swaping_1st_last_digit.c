@@ -14,6 +14,8 @@ int main(int argc, char const *argv[])
     swappedNum += num % ((int) pow(10, digits));
     swappedNum -= lastDigit;
     swappedNum += firstDigit;
+
     printf("Swapped Number : %d", swappedNum);
+    
 return 0;
 }
